@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Reusing existing styles from index.html */
+      body {
+        font-family: "Lato", sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        line-height: 1.6;
+        background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 60px 20px;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 80px;
+        padding: 64px 0;
+        background: linear-gradient(135deg, #013530 0%, #025048 100%);
+        color: white;
+        border-radius: 30px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      /* New contact-specific styles */
+      .contact-section {
+        background: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 50px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .contact-method {
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+      .contact-method h2 {
+        color: #013530;
+        font-size: 28px;
+        margin-bottom: 15px;
+      }
+
+      .contact-method p {
+        font-size: 20px;
+        color: #444;
+        margin-bottom: 10px;
+      }
+
+      .contact-link {
+        color: #025048;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+      }
+
+      .contact-link:hover {
+        color: #013530;
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+      }
+
+      .social-icon {
+        width: 48px;
+        height: 48px;
+        transition: transform 0.3s ease;
+      }
+
+      .social-icon:hover {
+        transform: scale(1.1);
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Contact Us - CourtShip</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Contact Us</h1>
+        <p>Get in touch with the CourtShip team</p>
+      </div>
+
+      <div class="contact-section">
+        <div class="contact-method">
+          <h2>Email</h2>
+          <p>
+            <a href="mailto:courtshipappios@gmail.com" class="contact-link"
+              >courtshipappios@gmail.com</a
+            >
+          </p>
+        </div>
+
+        <div class="contact-method">
+          <h2>Social Media</h2>
+          <p>Follow us and stay updated</p>
+          <div class="social-icons">
+            <a href="https://x.com/courtshipapp" target="_blank">
+              <img
+                src="images/twitter-icon.png"
+                alt="Twitter"
+                class="social-icon"
+              />
+            </a>
+            <!-- Add more social media icons as needed -->
+          </div>
+        </div>
+
+        <div class="contact-method">
+          <h2>Support</h2>
+          <p>
+            Need help? Check out our
+            <a href="/support" class="contact-link">Support Center</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
