@@ -185,6 +185,24 @@
         background: rgba(255, 255, 255, 0.1);
         transform: translateY(-2px);
       }
+
+      .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+      }
+
+      .social-icon {
+        width: 48px;
+        height: 48px;
+        transition: transform 0.3s ease;
+        filter: brightness(0) invert(1);
+      }
+
+      .social-icon:hover {
+        transform: scale(1.1);
+      }
     </style>
     <link
       href="https://fonts.googleapis.com/css?family=Lato:400,700"
@@ -209,7 +227,19 @@
           Your Ultimate Sports Community Platform - Connect with Players, Share
           Moments, and Play Together
         </p>
-        <a href="/contact.html" class="contact-link">Contact Us</a>
+        <a href="/contact.html" class="contact-link">
+          Email : courtshipappios@gmail.com
+        </a>
+        <div class="social-icons">
+          <a href="https://x.com/courtshipapp" target="_blank">
+            <img
+              src="images/twitter-logo.png"
+              alt="Twitter"
+              class="social-icon"
+            />
+          </a>
+          <!-- Add more social media icons as needed -->
+        </div>
       </div>
 
       <div class="feature-section">
